@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: Build OpenWrt
+name: Build arm64.mini OpenWrt
 permissions:
   contents: write
 on:
@@ -26,7 +26,7 @@ env:
   REPO_URL: https://github.com/openwrt/openwrt
   REPO_BRANCH: v22.03.5
   FEEDS_CONF: feeds.conf.default
-  CONFIG_FILE: x86-64.config
+  CONFIG_FILE: arm64.mini.config
   CUSTOM_SH: custom.sh
   UPLOAD_BIN_DIR: false
   UPLOAD_FIRMWARE: true

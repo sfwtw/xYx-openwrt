@@ -1,6 +1,7 @@
 ## 说明
 
-**本openwrt仅适用于x86_64的cpu.**
+**本openwrt Fork [xYx-c/build-openwrt](https://github.com/xYx-c/build-openwrt)仅适用于ARMv8的cpu.**
+**用于x86_x64的的请到[xYx-c/build-openwrt/releases](https://github.com/xYx-c/build-openwrt/releases)下载.**
 
   |名称 |说明 |
   |:----|:----|
@@ -117,6 +118,8 @@ Bootstrap DNS
   2. AdguardHome
   3. DDNS
   4. ~~SmartDns~~
+  **5. MosDNS**
+  **6. Agron主题**
 
 ## 鸣谢
 

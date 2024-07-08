@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: Build arm64.mini OpenWrt
+name: Build arm64.mini OpenWrt v22.03.5
 permissions:
   contents: write
 on:
@@ -19,8 +19,8 @@ on:
         description: 'SSH connection to Actions'
         required: false
         default: 'false'
-  schedule:
-     - cron: '0 1 1 * *'
+  #schedule:
+  #   - cron: '0 1 1 * *'
 
 env:
   REPO_URL: https://github.com/openwrt/openwrt

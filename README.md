@@ -120,9 +120,8 @@ Bootstrap DNS
   3. DDNS
   4. ~~SmartDns~~
 
-    **5. MosDNS**
-     
-    **6. Agron主题**
+    5. MosDNS
+    6. Agron主题
 
 ## 鸣谢
 

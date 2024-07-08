@@ -27,6 +27,8 @@ mv accesscontrol-plus/luci-app-accesscontrol-plus  package/luci-app-accesscontro
 
 git clone --depth=1 -b master https://github.com/rufengsuixing/luci-app-zerotier package/luci-app-zerotier
 
+sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/Makefile
+
 # update golang
 # pushd feeds/packages/lang
 # rm -rf golang && svn co https://github.com/openwrt/packages/trunk/lang/golang

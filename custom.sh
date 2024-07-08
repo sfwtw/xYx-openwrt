@@ -29,11 +29,11 @@ mv accesscontrol-plus/luci-app-accesscontrol-plus  package/luci-app-accesscontro
 git clone --depth=1 -b master https://github.com/rufengsuixing/luci-app-zerotier package/luci-app-zerotier
 
 #主题
-rm -rf feeds/luci/applications/luci-app-argon-config
+# rm -rf feeds/luci/applications/luci-app-argon-config
 # rm -rf feeds/kenzo/luci-app-argon-config
 git clone -b 18.06 https://github.com/jerrykuku/luci-app-argon-config.git package/luci-app-argon-config
 
-rm -rf feeds/luci/themes/luci-theme-argon
+# rm -rf feeds/luci/themes/luci-theme-argon
 # rm -rf feeds/kenzo/luci-theme-argon
 git clone -b 18.06 https://github.com/SpeedPartner/luci-theme-argon-18.06-patch.git package/luci-theme-argon
 sed -i '41,59d' feeds/luci/themes/luci-theme-argon/luasrc/view/themes/argon/footer.htm

@@ -26,7 +26,7 @@ env:
   REPO_URL: https://github.com/openwrt/openwrt
   REPO_BRANCH: v23.05.3
   FEEDS_CONF: feeds.conf.default
-  CONFIG_FILE: arm64.mini.config
+  CONFIG_FILE: Armvirt64.mini.config
   CUSTOM_SH: custom.sh
   UPLOAD_BIN_DIR: false
   UPLOAD_FIRMWARE: true

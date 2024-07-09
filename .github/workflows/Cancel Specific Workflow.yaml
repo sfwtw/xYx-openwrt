@@ -3,8 +3,11 @@ name: Cancel Specific Workflow
 on:
   workflow_dispatch:
     inputs:
-      run_id:
-        description: 'The ID of the workflow run to cancel'
+      workflow_id:
+        description: 'The ID of the workflow to cancel'
+        required: true
+      access_token:
+        description: 'Access token with repo scope'
         required: true
 
 jobs:
@@ -17,6 +20,5 @@ jobs:
       - name: Cancel workflow
         uses: styfle/cancel-workflow-action@main
         with:
-          run_id: ${{ github.event.inputs.run_id }}
-        env:
-          GITHUB_TOKEN: ${{ secrets.TOKEN3 }}
+          workflow_id: ${{ github.event.inputs.workflow_id }}
+          access_token: ${{ github.event.inputs.access_token }}

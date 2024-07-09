@@ -15,7 +15,7 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Cancel workflow
-        uses: styfle/cancel-workflow-action@master
+        uses: styfle/cancel-workflow-action
         with:
           run_id: ${{ github.event.inputs.run_id }}
         env:

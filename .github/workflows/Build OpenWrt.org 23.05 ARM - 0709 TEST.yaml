@@ -25,7 +25,7 @@ env:
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: arm64.mini.config
   #DIY_P1_SH: diy-part1.sh
-  DIY_P2_SH: custom.sh
+  CUSTOM_SH: custom.sh
   UPLOAD_BIN_DIR: false
   UPLOAD_FIRMWARE: true
   UPLOAD_COWTRANSFER: false
@@ -78,10 +78,11 @@ jobs:
     - name: Load custom configuration
       run: |
         [ -e files ] && mv files openwrt/files
+        [ -e banner ] && mv banner openwrt/package/base-files/files/etc/banner
         [ -e $CONFIG_FILE ] && mv $CONFIG_FILE openwrt/.config
-        chmod +x $DIY_P2_SH
+        chmod +x $CUSTOM_SH
         cd openwrt
-        $GITHUB_WORKSPACE/$DIY_P2_SH
+        $GITHUB_WORKSPACE/$CUSTOM_SH
 
     - name: Download package
       id: package

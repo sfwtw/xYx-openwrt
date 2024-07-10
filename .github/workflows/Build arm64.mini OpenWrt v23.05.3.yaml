@@ -104,6 +104,14 @@ jobs:
         cd openwrt
         $GITHUB_WORKSPACE/$CUSTOM_SH
 
+    - name: Clean up old configurations
+      run: |
+        cd openwrt
+        make distclean
+        make defconfig
+        echo "After make defconfig:"
+        cat .config  # 输出配置文件内容
+
     - name: SSH connection to Actions
       uses: P3TERX/ssh2actions@v1.0.0
       if: (github.event.inputs.ssh == 'true' && github.event.inputs.ssh  != 'false') || contains(github.event.action, 'ssh')

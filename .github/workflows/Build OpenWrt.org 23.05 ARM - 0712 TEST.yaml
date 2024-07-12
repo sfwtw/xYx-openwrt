@@ -131,7 +131,7 @@ jobs:
       run: |
         cd openwrt
         make defconfig
-        cat openwrt/.config  # 确认 .config 文件内容
+        cat .config  # 输出配置文件内容
         make download -j8
         find dl -size -1024c -exec ls -l {} \;
         find dl -size -1024c -exec rm -f {} \;

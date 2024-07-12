@@ -198,7 +198,7 @@ jobs:
       with:
         name: R${{ env.DATE }} for ${{ env.PRODUCT_NAME }}
         allowUpdates: true
-        tag: tag: ${{ env.FILE_NAME }}${{ env.FILE_DATE }}  # 确保 tag 名称有效，去除非法字符和空格
+        tag: ${{ env.FILE_NAME }}${{ env.FILE_DATE }}  # 确保 tag 名称有效，去除非法字符和空格
         commit: ${{ github.sha }}  # 使用有效的 commit SHA 值
         token: ${{ secrets.TOKEN3  }}
         body: |

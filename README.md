@@ -13,6 +13,8 @@
 **用于x86_x64的的请到原作者处[xYx-c/build-openwrt/releases](https://github.com/xYx-c/build-openwrt/releases)下载.**
 
 > **说明**:构建本openwrt目的是自己使用,没有太多功能比较清爽,仅仅适用我个人使用 - **附议原作者xYx-c，的确清爽**.
+> ![](https://github.com/dotnet-campus/dotnetcampus.DotNETBuildSDK
+/workflows/.NET%20Core/badge.svg)
 
 ### 构建openwrt或[releases](https://github.com/xYx-c/build-openwrt/releases)下载
 - Fork本仓库-> Actions-> Build OpenWrt-> Run workflow

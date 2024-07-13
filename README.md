@@ -17,8 +17,7 @@
 
 | 平台+设备名称 | 固件编译状态 | 配置文件 | 固件下载 |
 | :-------------: | :-------------: | :-------------: | :-------------: |
-| [![](https://img.shields.io/badge/OpenWrt-ArmV8 Mini-32C955.svg?logo=openwrt)]
-
+| [![](https://img.shields.io/badge/OpenWrt-ArmV8 Mini-32C955.svg?logo=openwrt)](https://github.com/518512/xYx-openwrt/blob/master/.github/workflows/Build%20arm64.mini%20OpenWrt%20v22.03.6.yaml) |
 
 ### 构建openwrt或[releases](https://github.com/xYx-c/build-openwrt/releases)下载
 - Fork本仓库-> Actions-> Build OpenWrt-> Run workflow

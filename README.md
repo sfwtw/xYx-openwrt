@@ -19,7 +19,7 @@
 | 平台+设备名称 | 固件编译状态 | 固件下载 |
 | :-------------: | :-------------: | :-------------: |
 | [![](https://img.shields.io/badge/OpenWrt-ArmV8_Mini_ROOTFS-32C955.svg?logo=openwrt)](#) |[![](https://github.com/518512/xYx-openwrt/actions/workflows/Build%20arm64.mini%20OpenWrt%20v22.03.6.yaml/badge.svg)](#) | [![](https://img.shields.io/badge/下载-链接-blueviolet.svg?logo=hack-the-box)](https://github.com/518512/xYx-openwrt/releases) |
-| [![](https://img.shields.io/badge/OpenWrt-ArmV8_Mini_ROOTFS-32C955.svg?logo=openwrt)](#) |[![](https://github.com/518512/xYx-openwrt/actions/workflows/Build%20arm64.mini%20OpenWrt%20v23.05.3.yaml/badge.svg)](#) | [![GitHub release (latest by date)](https://img.shields.io/github/v/release/db-one/OpenWrt-AutoBuild?style=for-the-badge&label=固件更新下载)](https://github.com/db-one/OpenWrt-AutoBuild/releases) |
+| [![](https://img.shields.io/badge/OpenWrt-ArmV8_Mini_ROOTFS-32C955.svg?logo=openwrt)](#) |[![](https://github.com/518512/xYx-openwrt/actions/workflows/Build%20arm64.mini%20OpenWrt%20v23.05.3.yaml/badge.svg)](#) | [![GitHub release (latest by date)](https://img.shields.io/github/v/release/518512/xYx-openwrt?style=for-the-badge&label=固件更新下载)](https://github.com/db-one/OpenWrt-AutoBuild/releases) |
 
 ### 构建openwrt或[releases](https://github.com/xYx-c/build-openwrt/releases)下载
 - Fork本仓库-> Actions-> Build OpenWrt-> Run workflow

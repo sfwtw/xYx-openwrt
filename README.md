@@ -4,11 +4,9 @@
 **OpenWRT v23.05（main）为缝合产物，搞了两天没搞定，因为同样的配置文件v23.05会编译错误**
 
 **仅适用于ARMv8的CPU，且只提供LXC所需的rootfs.**
-  |名称 |说明 |
-  |:----|:----|
-  |IP| 10.5.2.1|
-  |用户| root|
-  |密码||
+  |名称 |说明 |用户 |密码|
+  |:----|:----|:----|:----|
+  | IP| 10.5.2.1| root| password|
 
 **用于x86_x64的的请到原作者处[xYx-c/build-openwrt/releases](https://github.com/xYx-c/build-openwrt/releases)下载.**
 

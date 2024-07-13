@@ -1,12 +1,16 @@
 ## 说明
-**本openwrt Fork [xYx-c/build-openwrt](https://github.com/xYx-c/build-openwrt)仅适用于ARMv8的CPU，且只提供LXC所需的rootfs.**
+**本OpenWRT v22.03.5/v22.03.6 Fork [xYx-c/build-openwrt](https://github.com/xYx-c/build-openwrt)**
+**OpenWRT v23.05（main）为缝合产物，因为同样的配置文件v23.05会编译错误**
+**仅适用于ARMv8的CPU，且只提供LXC所需的rootfs.**
   |名称 |说明 |
   |:----|:----|
   |IP| 10.5.2.1|
   |用户| root|
   |密码||
+
 **用于x86_x64的的请到原作者处[xYx-c/build-openwrt/releases](https://github.com/xYx-c/build-openwrt/releases)下载.**
-> **说明**:构建本openwrt目的是自己使用,没有太多功能比较清爽,仅仅适用我个人使用.
+
+> **说明**:构建本openwrt目的是自己使用,没有太多功能比较清爽,仅仅适用我个人使用 - **附议原作者xYx-c，的确清爽**.
 
 ### 构建openwrt或[releases](https://github.com/xYx-c/build-openwrt/releases)下载
 - Fork本仓库-> Actions-> Build OpenWrt-> Run workflow

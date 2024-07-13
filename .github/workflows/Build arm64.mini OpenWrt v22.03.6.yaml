@@ -27,7 +27,7 @@ env:
   REPO_URL: https://github.com/openwrt/openwrt
   REPO_BRANCH: v22.03.6
   FEEDS_CONF: feeds.conf.default
-  CONFIG_FILE: arm64.mini.config
+  CONFIG_FILE: v22.arm64.mini.config
   CUSTOM_SH: custom.sh
   UPLOAD_BIN_DIR: false
   UPLOAD_FIRMWARE: true
@@ -80,6 +80,8 @@ jobs:
         df -hT $PWD
         git clone $REPO_URL -b $REPO_BRANCH openwrt
         ln -sf /workdir/openwrt $GITHUB_WORKSPACE/openwrt
+        echo "DATE=$(date "+%Y-%m-%d %H")" >> $GITHUB_ENV
+        echo "DATE1=$(date "+%Y-%m-%d")" >> $GITHUB_ENV
 
     - name: Update feeds
       run: cd openwrt && ./scripts/feeds update -a

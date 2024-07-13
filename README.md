@@ -1,6 +1,8 @@
 ## 说明
 **本OpenWRT v22.03.5/v22.03.6 Fork [xYx-c/build-openwrt](https://github.com/xYx-c/build-openwrt)**
+
 **OpenWRT v23.05（main）为缝合产物，因为同样的配置文件v23.05会编译错误**
+
 **仅适用于ARMv8的CPU，且只提供LXC所需的rootfs.**
   |名称 |说明 |
   |:----|:----|

@@ -1,17 +1,15 @@
+## 感谢
+
+**[xYx-c/build-openwrt](https://github.com/xYx-c/build-openwrt) 、[Zane-E/ROOTFS](https://github.com/Zane-E/ROOTFS) 、[217heidai/OpenWrt-Builder](https://github.com/217heidai/OpenWrt-Builder) 、[db-one/OpenWrt-AutoBuild](https://github.com/db-one/OpenWrt-AutoBuild) 、[shidahuilang/openwrt](https://github.com/shidahuilang/openwrt) 、[haiibo/OpenWrt](https://github.com/haiibo/OpenWrt) [ophub/amlogic-s9xxx-openwrt](https://github.com/ophub/amlogic-s9xxx-openwrt) 等等无私的大神分享及教程**
+
 ## 说明
-
 **本openwrt Fork [xYx-c/build-openwrt](https://github.com/xYx-c/build-openwrt)仅适用于ARMv8的CPU，且只提供LXC所需的rootfs.**
-
-**感谢：[xYx-c/build-openwrt](https://github.com/xYx-c/build-openwrt) 、[Zane-E/ROOTFS](https://github.com/Zane-E/ROOTFS) 、[217heidai/OpenWrt-Builder](https://github.com/217heidai/OpenWrt-Builder) 、[db-one/OpenWrt-AutoBuild](https://github.com/db-one/OpenWrt-AutoBuild) 、[shidahuilang/openwrt](https://github.com/shidahuilang/openwrt) 、[haiibo/OpenWrt](https://github.com/haiibo/OpenWrt) [ophub/amlogic-s9xxx-openwrt](https://github.com/ophub/amlogic-s9xxx-openwrt) 等等无私的大神分享及教程**
-
-**用于x86_x64的的请到原作者处[xYx-c/build-openwrt/releases](https://github.com/xYx-c/build-openwrt/releases)下载.**
-
   |名称 |说明 |
   |:----|:----|
   |IP| 10.5.2.1|
   |用户| root|
   |密码||
-
+**用于x86_x64的的请到原作者处[xYx-c/build-openwrt/releases](https://github.com/xYx-c/build-openwrt/releases)下载.**
 > **说明**:构建本openwrt目的是自己使用,没有太多功能比较清爽,仅仅适用我个人使用.
 
 ### 构建openwrt或[releases](https://github.com/xYx-c/build-openwrt/releases)下载

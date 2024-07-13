@@ -115,7 +115,7 @@ jobs:
         cd openwrt
         useVersionInfo=$(git show -s --date=short --format="Author: %an<br/>date: %cd<br/>commit: %s<br/>commit hash: %H")
         echo "useVersionInfo=$useVersionInfo" >> $GITHUB_ENV
-        echo "DATE=$(date "+%Y-%m-%d %H:%M:%S")" >> $GITHUB_ENV
+        echo "DATE=$(date "+%Y-%m-%d %H")" >> $GITHUB_ENV
         echo "DATE1=$(date "+%Y-%m-%d")" >> $GITHUB_ENV
 
     - name: Load custom feeds
@@ -232,8 +232,8 @@ jobs:
         body: |
           **OpenWRT official Mini Firmware for Armvirt/Armsr 64**
           ### 📒 固件信息
-          - 🚀 每日：成品固件点击此处跳转➦[Zane-E MINI ROOTFS](https://github.com/Zane-E/ROOTFS/releases/tag/LXC)即可下载
-          - 🚀 随缘：LXC MINI ROOTFS➦[LEDE](https://github.com/518512/ROOTFS/releases/tag/OP_Armvirt_ROOTFS_mini)[OpenWRT](https://github.com/518512/ROOTFS/releases/tag/OP_Armvirt_ROOTFS_mini)[ImmortalWrt](https://github.com/518512/ROOTFS/releases/tag/OP_Armvirt_ROOTFS_mini)即可下载
+          - 🚀 每日：OpenWRT 作者固件 ➦ [xYx-c](https://github.com/xYx-c/build-openwrt/releases) ➦ [Zane-E](https://github.com/Zane-E/ROOTFS/releases) ➦ [217heidai](https://github.com/217heidai/OpenWrt-Builder/releases)
+          - 🚀 随缘：LXC MINI ROOTFS ➦ [OpenWRT](https://github.com/518512/xYx-openwrt/releases) ➦ [LEDE](https://github.com/518512/ROOTFS/releases) ➦ [ImmortalWrt](https://github.com/518512/ROOTFS/releases)即可下载
           - 💻 平台架构: Armvirt/Armsr 64
           - ⚽ 固件源码: ${{ env.REPO_URL }}
           - 💝 源码分支: ${{ env.REPO_BRANCH }}（23.05.3）

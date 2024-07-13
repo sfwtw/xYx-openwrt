@@ -14,8 +14,11 @@
 
 > **说明**:构建本openwrt目的是自己使用,没有太多功能比较清爽,仅仅适用我个人使用 - **附议原作者xYx-c，的确清爽**.
 
-> ![](https://github.com/dotnet-campus/dotnetcampus.DotNETBuildSDK
-/workflows/Build%20OpenWrt.org%2023.05%20ARM%20-%200712%20TEST/badge.svg)
+
+| 平台+设备名称 | 固件编译状态 | 配置文件 | 固件下载 |
+| :-------------: | :-------------: | :-------------: | :-------------: |
+| [![](https://img.shields.io/badge/OpenWrt-X86_64位-32C955.svg?logo=openwrt)](https://github.com/518512/xYx-openwrt/blob/master/.github/workflows/Build%20arm64.mini%20OpenWrt%20v22.03.6.yaml) | [![](https://github.com/518512/xYx-openwrt/actions/workflows/Build%20arm64.mini%20OpenWrt%20v22.03.6.yaml/badge.svg)](https://github.com/haiibo/OpenWrt/actions/workflows/X86_64-OpenWrt.yml) | [![](https://img.shields.io/badge/编译-配置-orange.svg?logo=apache-spark)](https://github.com/haiibo/OpenWrt/blob/main/configs/x86_64.config) | [![](https://img.shields.io/badge/下载-链接-blueviolet.svg?logo=hack-the-box)](https://github.com/haiibo/OpenWrt/releases/tag/X86_64) |
+
 
 ### 构建openwrt或[releases](https://github.com/xYx-c/build-openwrt/releases)下载
 - Fork本仓库-> Actions-> Build OpenWrt-> Run workflow
